@@ -1,0 +1,35 @@
+body {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+/* H1 */
+h1 {
+	font-size: 55px;
+}
+
+/* Name in H1 elements */
+#name {
+	color: darkturquoise;
+}
+
+.container {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.half-width {
+	width: 50%;
+	padding-left: 5px;
+}
+
+.half-width > img {
+	width: 80%;
+}
+
+.link-button {
+	text-decoration: none;
+	background-image: linear-gradient(orange, tomato);
+	color: white;
+	font-weight: 700;
+	padding: 10px 45px;
+}
